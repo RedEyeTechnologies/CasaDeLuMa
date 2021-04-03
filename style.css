@@ -67,3 +67,16 @@ body {
   .openButton:hover {
     opacity: 1;
   }
+
+  .nav {
+      background-color: black;
+      color: white;
+  }
+
+  .section1 {
+      background-color: aquamarine;
+  }
+
+  .section2 {
+      background-color: darkcyan;
+  }
