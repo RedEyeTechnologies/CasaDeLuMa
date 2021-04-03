@@ -1,9 +1,12 @@
 body {
     text-align: center; 
 }
-
 * {
     box-sizing: border-box;
+  }
+    .header {
+      background-color: black;
+      color: white;
   }
   .openBtn {
     display: flex;
@@ -67,16 +70,14 @@ body {
   .openButton:hover {
     opacity: 1;
   }
-
-  .nav {
-      background-color: black;
-      color: white;
-  }
-
   .section1 {
       background-color: aquamarine;
   }
-
   .section2 {
       background-color: darkcyan;
+  }
+  footer {
+      background-color: black; 
+      width: 100%; 
+      height: 50px; 
   }
