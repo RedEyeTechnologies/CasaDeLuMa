@@ -83,6 +83,8 @@ body {
   background-color: black;
   color: white;
   padding: .5em;
+  display: flex;
+  justify-content: space-between;
 }
 
 .section1 {
@@ -99,11 +101,12 @@ body {
 
 .contact {
   padding-right: 2em;
-  text-align: right;
+  text-align: end;
+  justify-content: flex-end;
 }
 
 .logo {
-  text-align: left;
+  align-content: initial;
   padding-left: 2em;
 }
 
@@ -127,7 +130,7 @@ body {
 }
 
 .stepsImage {
-  align-content:initial;
+  align-content: initial;
 }
 
 .section3 {
