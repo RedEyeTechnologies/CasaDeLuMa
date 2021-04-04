@@ -12,66 +12,75 @@
 
 <body>
     <nav class="nav">
-        <img src="assets/favicon.ico"> 
-        <h3>xxx-xxx-xxxx</h3>
-        <h3>www.casadeluma.com</h3>
+        <div class="logo">
+            <img src="assets/favicon.ico">
+        </div>
+        <div class="contact">
+            <h3>xxx-xxx-xxxx</h3>
+            <h3>www.casadeluma.com</h3>
+        </div>
     </nav>
     <div class="section1">
-        <h2>Working towards financial freedom for you and your family</h2>
-        <h3>We are ready to buy your property AS-IS!<br>
-            Are you sick & tired of dealing with tenants, repairs, and an overall disappointing investment?<br>
-            Contact us here for a no-obligation offer for your property.
-        </h3>
-        <h3>Let us take it from here</h3>
-        <input placeholder="ENTER YOUR ADDRESS">
-        <div class="openBtn">
-            <button class="openButton" onclick="openForm()"><strong>GET MY OFFER</strong></button>
+        <div class="caption">
+            <h2>Working towards financial freedom for you and your family</h2>
+            <h3>We are ready to buy your property AS-IS!<br>
+                Are you sick & tired of dealing with tenants, repairs, and an overall disappointing investment?<br>
+                Contact us here for a no-obligation offer for your property.
+            </h3>
         </div>
-        <div class="loginPopup">
-            <div class="formPopup" id="popupForm">
-                <form action="https://formsubmit.co/coen.jeffery@outlook.com" method="POST" class="formContainer">
-                    <h2>GET MY OFFER</h2>
-                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/pages/thanks.html">
-                    <input type="text" name="First Name" placeholder="First Name" required>
-                    <br />
-                    <br />
-                    <input type="text" name="Last Name" placeholder="Last Name" required>
-                    <br />
-                    <br />
-                    <input type="email" name="Email" placeholder="Email Address" required>
-                    <br />
-                    <br />
-                    <input type="text" name="Phone Number" placeholder="Phone Number" required>
-                    <br />
-                    <br />
-                    <input type="text" name="Address" placeholder="address" required>
-                    <br />
-                    <br />
-                    <textarea name="Message" rows="5" cols="50" placeholder="Reason for selling" required></textarea>
-                    <br />
-                    <br />
-                    <button type="submit" class="btn" >GET MY OFFER</button>
-                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-                </form>
+        <div class="caption2">
+            <h3>Let us take it from here</h3>
+        </div>
+        <div class="enterAddress">
+            <input placeholder="ENTER YOUR ADDRESS" class="input">
+            <div class="openBtn">
+                <button class="openButton" onclick="openForm()"><strong>GET MY OFFER</strong></button>
             </div>
-        </div>
-        <div>
-            <h3>Contact us here for a no-obligation offer for your property</h3>
-        </div>
-    </div>
-
-    <div class="section2">
-        <div>
-            <h1>Step1</h1>
-            <h1>Step2</h1>
-            <h1>Step3</h1>
-        </div>
-        <div>
-            <h1>pic of hands shaking</h1>
-            <p>Lorem ipsum</p>
+            <div class="loginPopup">
+                <div class="formPopup" id="popupForm">
+                    <form action="https://formsubmit.co/coen.jeffery@outlook.com" method="POST" class="formContainer">
+                        <h2>GET MY OFFER</h2>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/pages/thanks.html">
+                        <input type="text" name="First Name" placeholder="First Name" required>
+                        <br />
+                        <br />
+                        <input type="text" name="Last Name" placeholder="Last Name" required>
+                        <br />
+                        <br />
+                        <input type="email" name="Email" placeholder="Email Address" required>
+                        <br />
+                        <br />
+                        <input type="text" name="Phone Number" placeholder="Phone Number" required>
+                        <br />
+                        <br />
+                        <input type="text" name="Address" placeholder="Address" required>
+                        <br />
+                        <br />
+                        <textarea type="text" name="Message" rows="5" cols="50" placeholder="Reason for selling"
+                            required></textarea>
+                        <br />
+                        <br />
+                        <button type="submit" class="btn">GET MY OFFER</button>
+                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
     <div>
+        <h3>Contact us here for a no-obligation offer for your property</h3>
+    </div>
+
+    <div class="section2">
+        <div class="stepsImage">
+            <img src="assets/Screenshot 2021-04-03 230628.jpg">
+        </div>
+        <div class="handsImage">
+            <img src="assets/handshake.png">
+            <p>Lorem ipsum</p>
+        </div>
+    </div>
+    <div class="section3">
         <p>We are ready to buy your property AS-IS!</p>
         <p>Please enter your info</p>
         <form action="https://formsubmit.co/coen.jeffery@outlook.com" method="POST">
@@ -100,7 +109,7 @@
         </form>
         <p>Please Note: All Fields Are Required</p>
     </div>
-    <footer class="nav">
+    <footer class="footer">
         <img src="assets/favicon.ico">
     </footer>
     <script src="script.js"></script>

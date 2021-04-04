@@ -43,7 +43,8 @@ body {
 }
 
 .formContainer input[type=text],
-.formContainer input[type=password] {
+.formContainer input[type=email],
+.formContainer textarea[type=text] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 20px 0;
@@ -80,13 +81,66 @@ body {
 
 .nav {
   background-color: black;
- color: white;
+  color: white;
+  padding: .5em;
 }
 
 .section1 {
-  background-color: aquamarine;
+  background-image: url("assets/house.png");
+  background-position: center;
+  background-size: cover;
+  padding: 2em;
 }
 
 .section2 {
   background-color: darkcyan;
+  display: flex;
+}
+
+.contact {
+  padding-right: 2em;
+  text-align: right;
+}
+
+.logo {
+  text-align: left;
+  padding-left: 2em;
+}
+
+.caption {
+  background-color: white;
+  opacity: 90%;
+  text-align: left;
+  margin-left: 2em;
+  margin-right: 15em;
+  padding: .5em;
+}
+
+.caption2 {
+  text-align: left;
+  margin-left: 2em;
+  text-decoration: underline;
+}
+
+.enterAddress {
+  padding-top: 8em;
+}
+
+.stepsImage {
+  align-content:initial;
+}
+
+.section3 {
+  background-color: lightblue;
+  padding: 2em;
+}
+
+.handsImage {
+  margin: 2em;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 1em;
 }
