@@ -1,9 +1,51 @@
 body {
     text-align: center; 
+    background-color: white;
 }
-
 * {
     box-sizing: border-box;
+  }
+/*Reordered for symantic reasoning*/
+.header {
+    background-color: black;
+    color: white;
+    padding: .5em;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logoPNG{
+    width: 150px; 
+    height: 150px; 
+  }
+  .contact {
+    padding-right: 2em;
+    text-align: end;
+    justify-content: flex-end;
+  }
+  .section1 {
+    width: 100%;
+    height: 800px; 
+    background-image: url("assets/house.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: 50px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2em;
+    border-top: solid 1px burlywood;
+  }
+  .caption {
+    opacity: 90%;
+    text-align: center;
+    margin: auto; 
+    padding: .5em;
+    background-color: white; 
+    position: relative; 
+    top: 100px; 
+  }
+  .section2 {
+    background-color: darkcyan;
+    display: flex;
   }
 
 /*.openBtn {
@@ -78,45 +120,9 @@ body {
 .openButton:hover {
   opacity: 1;
 }
-
-.nav {
-  background-color: black;
-  color: white;
-  padding: .5em;
-  display: flex;
-  justify-content: space-between;
-}
-
-.section1 {
-  background-image: url("assets/house.png");
-  background-position: center;
-  background-size: cover;
-  padding: 2em;
-}
-
-.section2 {
-  background-color: darkcyan;
-  display: flex;
-}
-
-.contact {
-  padding-right: 2em;
-  text-align: end;
-  justify-content: flex-end;
-}
-
 .logo {
   align-content: initial;
   padding-left: 2em;
-}
-
-.caption {
-  background-color: white;
-  opacity: 90%;
-  text-align: left;
-  margin-left: 2em;
-  margin-right: 15em;
-  padding: .5em;
 }
 
 .caption2 {
@@ -142,7 +148,7 @@ body {
   margin: 2em;
 }
 
-.footer {
+footer {
   background-color: black;
   color: white;
   padding: 1em;
