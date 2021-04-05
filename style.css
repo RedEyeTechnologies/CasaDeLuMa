@@ -40,10 +40,9 @@ body {
   opacity: 90%;
   text-align: left;
   margin: auto; 
-  padding: .25em;
+  padding: 10px;
   background-color: white; 
   position: relative;
-  top: 20px; 
   width: 700px;
 }
 .section2 {
@@ -133,10 +132,10 @@ body {
   opacity: 90%;
   text-align: center;
   margin: auto; 
-  padding: .5em;
+  padding: 5px;
   background-color: white; 
   position: relative; 
-  top: 50px;
+  top: 40px;
   width: 500px
 }
 
@@ -161,7 +160,7 @@ body {
 footer {
   background-color: black;
   color: white;
-  padding: 1em;
+  padding: 5px;
 }
 
 .input {
