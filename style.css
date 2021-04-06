@@ -141,7 +141,7 @@ body {
 }
 .openButton:active {
   background-color: white;
-  color: #1670BE
+  color: #1670BE;
 }
 .section2 {
   display: flex;
