@@ -1,3 +1,22 @@
+@media (max-width: 800px) {
+  .caption {
+    flex-direction: column;
+    max-width: 400px;
+  }
+  .caption2 {
+    max-width: 400px;
+  }
+  .section2 {
+    flex-direction: column;
+  }
+  .stepsImage, .handsImage {
+    max-width: 400px;
+  }
+  .handimage {
+    max-width: auto;
+  }
+}
+
 body {
     text-align: center; 
     background-color: white;
