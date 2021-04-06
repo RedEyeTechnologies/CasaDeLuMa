@@ -48,6 +48,8 @@ body {
 }
 .divider {
   background-color: grey;
+  width: 100%; 
+  height: 15px; 
 }
 .section1 {
   width: 100%;
@@ -110,10 +112,6 @@ body {
   height: 70px;
   box-shadow: 0 0 5px #9ecaed;
 }
-.section2 {
-  display: flex;
-  justify-content: center;
-}
 .openButton {
   border: none;
   border-radius: 10px;
@@ -122,6 +120,10 @@ body {
   cursor: pointer;
   height:70px;
   width: 100px;
+}
+.section2 {
+  display: flex;
+  justify-content: center;
 }
 .loginPopup {
   position: relative;
@@ -167,7 +169,7 @@ body {
   margin-bottom: 15px;
   opacity: 0.8;
 }
-  .formContainer .cancel {
+.formContainer .cancel {
   background-color: #cc0000;
 }
 .formContainer .btn:hover,
@@ -229,12 +231,11 @@ textarea:focus
   padding-right: 10px;
 }
 .section3 {
-  background-color: lightblue;
   width: 100%;
   background-image: url("assets/house2.jpg");
   background-attachment: fixed;
   background-position: top;
-  background-position-y: 20px; 
+  background-position-y: -10px; 
   background-repeat: no-repeat;
   background-size: cover;
   padding: 2em;
@@ -247,10 +248,16 @@ textarea:focus
   width: 500px;
   padding: 15px;
   margin: 5px 0 20px 0;
-  border: none;
+  border: solid 1px #1670BE;
   background: #eee;
   border-radius: 5px;
   max-width: 400px;
+}
+.mainForm {
+  background-color: rgba(255, 255, 255, .7); 
+  width: 600px; 
+  margin: auto;  
+  padding-bottom: 5px; 
 }
 .caption3 {
   text-align: center;
@@ -261,13 +268,27 @@ textarea:focus
   font-family:Arial, Helvetica, sans-serif;
   font-size: 25px;
   font-weight: 900;
+  color: #1670BE;
 }
 .please {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  color: white;
+  color: #1670BE;
   font-size: 20px;
   font-weight: bolder;
+  text-decoration: underline;
+}
+.formButton {
+  border: none;
+  border-radius: 10px;
+  background-color: #1c87c9;
+  color: white;
+  cursor: pointer;
+  height:70px;
+  width: 400px; 
+}
+.formButton:hover {
+  box-shadow: 0 0 30px #1670BE;
 }
 .required {
   text-align: center;
