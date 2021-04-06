@@ -23,7 +23,6 @@ body {
 * {
     box-sizing: border-box;
   }
-/*Reordered for symantic reasoning*/
 .header {
     background-color: black;
     color: white;
@@ -32,6 +31,10 @@ body {
     justify-content: space-between;
     height: auto;
     width: 100%;
+}
+.logo {
+  align-content: initial;
+  padding-left: 2em;
 }
 .logoPNG{
   width: 150px; 
@@ -42,6 +45,9 @@ body {
   text-align: end;
   justify-content: flex-end;
   font-family: Arial, Helvetica, sans-serif;
+}
+.divider {
+  background-color: grey;
 }
 .section1 {
   width: 100%;
@@ -64,16 +70,50 @@ body {
   position: relative;
   width: 700px;
 }
+.working {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 20px;
+}
+.ready {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+}
+.sick {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-style: italic;
+}
+.contactUs {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.enterAddress {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.offer {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  margin:auto;
+}
+.inputAddress {
+  width: 500px;
+  padding: 15px;
+  margin: 5px 0 20px 0;
+  border: solid skyblue 4px;
+  background: #eee;
+  border-radius: 15px;
+  height: 70px;
+  box-shadow: 0 0 5px #9ecaed;
+}
 .section2 {
   display: flex;
   justify-content: center;
 }
-
-/*.openBtn {
-  display: flex;
-  justify-content: left;
-}*/
-
 .openButton {
   border: none;
   border-radius: 10px;
@@ -83,13 +123,11 @@ body {
   height:70px;
   width: 100px;
 }
-
 .loginPopup {
   position: relative;
   text-align: center;
   width: 100%;
 }
-
 .formPopup {
   display: none;
   position: fixed;
@@ -99,13 +137,11 @@ body {
   border: 3px solid #999999;
   z-index: 9;
 }
-
 .formContainer {
   max-width: 400px;
   padding: 5px 20px;
   background-color: #fff;
 }
-
 .formContainer input[type=text],
 .formContainer input[type=email],
 .formContainer textarea[type=text] {
@@ -115,14 +151,12 @@ body {
   border: none;
   background: #eee;
 }
-
 .formContainer input[type=text]:focus,
 .formContainer input[type=password]:focus, 
 .formContainer textarea[type=text]:focus {
   background-color: #ddd;
   outline: none;
 }
-
 .formContainer .btn {
   padding: 12px 20px;
   border: none;
@@ -133,21 +167,30 @@ body {
   margin-bottom: 15px;
   opacity: 0.8;
 }
-  
-.formContainer .cancel {
+  .formContainer .cancel {
   background-color: #cc0000;
 }
-
 .formContainer .btn:hover,
-
 .openButton:hover {
   opacity: 1;
 }
-.logo {
-  align-content: initial;
-  padding-left: 2em;
-}
 
+.input {
+  width: 500px;
+  padding: 15px;
+  margin: 5px 0 20px 0;
+  border: none;
+  background: #eee;
+  border-radius: 5px;
+}
+input:focus,
+textarea:focus
+{
+    border: 4px solid skyblue;
+    box-shadow: 0 0 30px #1670BE;
+    outline-offset: 0px;
+    outline: none;
+}
 .caption2 {
   text-decoration: underline;
   opacity: 90%;
@@ -159,13 +202,15 @@ body {
   top: 40px;
   width: 500px
 }
-
-.enterAddress {
-  padding-top: 100px;
-  display: flex;
-  flex-direction: column;
+.let {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
 }
-
+.contactOffer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .stepsImage {
   width: 100%;
   max-width: 500px;
@@ -175,7 +220,6 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
-
 .handsImage {
   width: 100%;
   max-width: 500px;
@@ -185,32 +229,30 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
-
 .section3 {
   background-color: lightblue;
+  width: 100%;
+  height: 650px; 
+  background-image: url("assets/house2.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  background-position-y: 20px; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2em;
+  border-top: solid 1px burlywood;
   padding: 2em;
 }
-
-.responsive {
-  width: 100%;
-  height: auto;
+.caption3 {
+  text-align: center;
+  margin: auto; 
+  padding: .25em;
+  background-color: white; 
+  width: 600px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 900;
 }
-
-footer {
-  background-color: black;
-  color: white;
-  padding: 5px;
-}
-
-.input {
-  width: 500px;
-  padding: 15px;
-  margin: 5px 0 20px 0;
-  border: none;
-  background: #eee;
-  border-radius: 5px;
-}
-
 .section3 input[type=text],
 .section3 input[type=email],
 .section3 textarea[type=text] {
@@ -222,68 +264,6 @@ footer {
   border-radius: 5px;
   max-width: 400px;
 }
-
-.divider {
-  background-color: grey;
-}
-
-.caption3 {
-  opacity: 90%;
-  text-align: center;
-  margin: auto; 
-  padding: .25em;
-  background-color: white; 
-  width: 600px;
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 25px;
-  font-weight: 900;
-}
-
-.inputAddress {
-  width: 500px;
-  padding: 15px;
-  margin: 5px 0 20px 0;
-  border: solid skyblue 4px;
-  background: #eee;
-  border-radius: 15px;
-  height: 70px;
-  box-shadow: 0 0 5px #9ecaed;
-}
-
-.ready {
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 28px;
-  font-weight: 900;
-}
-
-.working {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  padding: 20px;
-}
-
-.sick {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 20px;
-  font-style: italic;
-}
-
-.contactUs {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.let {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: italic;
-}
-
-.contactOffer {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .please {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -291,7 +271,6 @@ footer {
   font-size: 20px;
   font-weight: bolder;
 }
-
 .required {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -299,19 +278,8 @@ footer {
   font-size: 15px;
   font-weight: bolder;
 }
-
-.offer {
-  display: flex;
-  flex-direction: row;
-  width: 400px;
-  margin:auto;
-}
-
-input:focus,
-textarea:focus
-{
-    border: 4px solid skyblue;
-    box-shadow: 0 0 30px #1670BE;
-    outline-offset: 0px;
-    outline: none;
+footer {
+  background-color: black;
+  color: white;
+  padding: 5px;
 }
