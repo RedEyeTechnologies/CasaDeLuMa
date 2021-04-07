@@ -33,14 +33,11 @@
         </div>
         <div class="enterAddress">
             <div class="let">Let Us Take It From Here!</div>
-            <p>Enter your address to connect with us</p>
+            <p>Click below to connect with us</p>
             <br/>
             <div class="offer">
-                <input placeholder="ENTER YOUR ADDRESS" class="inputAddress" id="enteredAddress" />
-                <br />
-                <br />
                 <div class="openBtn">
-                    <button class="openButton" onclick="openForm()"><strong>GET MY OFFER</strong></button>
+                    <button class="openButton" onclick="openForm(), addressFill()"><strong>GET MY OFFER</strong></button>
                 </div>
             </div>
             <div class="loginPopup">
@@ -60,7 +57,7 @@
                         <input type="text" name="Phone Number" placeholder="Phone Number" required>
                         <br />
                         <br />
-                        <input type="text" name="Address" placeholder="Address" required>
+                        <input type="text" name="Address" placeholder="Address" id="address" required>
                         <br />
                         <br />
                         <textarea type="text" name="Message" rows="3" cols="50" placeholder="How Did You Hear About Us?"

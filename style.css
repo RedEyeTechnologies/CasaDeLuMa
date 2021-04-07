@@ -128,20 +128,8 @@ hr {
   color:  black;
   text-decoration: underline;
 }
-.inputAddress {
-  width: 500px;
-  border: solid 1px #1c87c9;
-  background: #eee;
-  border-radius: 10px;
-  height: 70px;
-  box-shadow: 0 0 3px #9ecaed;
-  margin: auto; 
-}
-.inputAddress {
-  padding-left: 20px; 
-  font-size: 15px; 
-}
 .openButton {
+  opacity: 100%;
   border: none;
   border-radius: 10px;
   background-color: #1c87c9;

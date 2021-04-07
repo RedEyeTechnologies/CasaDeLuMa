@@ -1,6 +1,6 @@
 function openForm() {
     document.getElementById("popupForm").style.display = "block";
-  }
-  function closeForm() {
+}
+function closeForm() {
     document.getElementById("popupForm").style.display = "none";
-  }
+}
