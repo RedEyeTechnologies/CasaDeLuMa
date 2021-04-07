@@ -183,8 +183,9 @@ hr {
   width: 100%;
   padding: 15px 5px;
   margin: 5px 5px;
-  border: none;
+  border: solid 1px #1670BE;
   background: #eee;
+  border-radius: 5px; 
 }
 .formContainer input[type=text]:focus,
 .formContainer input[type=password]:focus, 
@@ -193,21 +194,29 @@ hr {
   outline: none;
 }
 .formContainer .btn {
+  border-radius: 5px; 
   padding: 12px 20px;
   border: none;
-  background-color: #8ebf42;
+  background-color: #1670BE;
   color: #fff;
   cursor: pointer;
   width: 100%;
   margin-bottom: 15px;
   opacity: 0.8;
+  font-weight:bolder; 
+}
+.formContainer .btn:hover {
+  box-shadow: 0 0 10px #1670BE;
 }
 .formContainer .cancel {
   background-color: #cc0000;
+} 
+.formContainer .cancel:hover {
+  box-shadow: 0 0 10px #cc0000;
 }
-.formContainer .btn:hover,
 .openButton:hover {
   opacity: 1;
+  box-shadow: 0 0 10px #1670BE;
 }
 .input {
   width: 500px;
