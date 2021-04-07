@@ -134,6 +134,7 @@ hr {
   height:70px;
   width: 500px;
   margin: auto; 
+  font-size: 18px; 
 }
 .openButton:hover {
   box-shadow: 0 0 10px #1670BE;
@@ -315,6 +316,8 @@ textarea:focus
   cursor: pointer;
   height:70px;
   width: 400px; 
+  font-weight: bold;
+  font-size: 18px; 
 }
 .formButton:hover {
   box-shadow: 0 0 30px #1670BE;
@@ -469,13 +472,13 @@ footer {
     font-weight: bolder;
     font-size: 18px; 
   }
+  .thanks {
+    font-size: 30px; 
+  }
 @media (max-width: 400px)
 {
   *{
     margin: 0px; 
-  }
-  body {
-    background-color:#1670BE;
   }
   hr {
     border: solid 1px #1670BE; 
@@ -644,6 +647,13 @@ footer {
     padding: 5px 20px;
     background-color: #fff; 
     margin: auto;
+  }
+  .thanks {
+    padding-top: 15px; 
+    font-size: 15px; 
+  }
+  .return {
+    padding-top: 15px; 
   }
 }
 }
