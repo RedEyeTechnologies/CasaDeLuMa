@@ -263,76 +263,6 @@ textarea:focus
 .description {
   font-size: 18px;
 }
-/* .section3 {
-  width: 100%;
-  background-image: url("assets/house2.jpg");
-  background-attachment: fixed;
-  background-position: top;
-  background-position-y: -10px; 
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 2em;
-  border-top: solid 1px burlywood;
-  padding: 2em;
-}
-.section3 input[type=text],
-.section3 input[type=email],
-.section3 textarea[type=text] {
-  width: 500px;
-  padding: 15px;
-  margin: 5px 0 20px 0;
-  border: solid 1px #1670BE;
-  background: #eee;
-  border-radius: 5px;
-  max-width: 400px;
-}
-.mainForm {
-  background-color: rgba(255, 255, 255, .7); 
-  border:solid 1px #1670BE; 
-  width: 604px; 
-  margin: auto;  
-  padding-bottom: 5px; 
-}
-.caption3 {
-  text-align: center;
-  margin: auto; 
-  padding: .25em;
-  background-color: white; 
-  width: 600px;
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 25px;
-  font-weight: 900;
-  color: #1670BE;
-}
-.please {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #1670BE;
-  font-size: 20px;
-  font-weight: bolder;
-  text-decoration: underline;
-}
-.formButton {
-  border: none;
-  border-radius: 10px;
-  background-color: #1c87c9;
-  color: white;
-  cursor: pointer;
-  height:70px;
-  width: 400px; 
-  font-weight: bold;
-  font-size: 18px; 
-}
-.formButton:hover {
-  box-shadow: 0 0 30px #1670BE;
-}
-.required {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  color: red;
-  font-size: 15px;
-  font-weight: bolder;
-} */
 footer {
   background-color: black;
   color: white;
@@ -396,18 +326,6 @@ footer {
     border: solid 1px #1670BE; 
     width: 90%
   }
-  /* .section3 {
-    width: 100%;
-    background-image: url("assets/house2.jpg");
-    background-attachment: fixed;
-    background-position: top;
-    background-position-y: 10px; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 2em;
-    border-top: solid 1px burlywood;
-    padding: 2em;
-  } */
   .handshake {
     width: 500px; 
   }
@@ -479,6 +397,85 @@ footer {
   .thanks {
     font-size: 30px; 
   }
+}
+@media (max-width: 750px) {
+  hr {
+    border: solid 1px #1670BE; 
+    width: 90%;
+    margin: auto;
+  }
+  .divider {
+   display: none;
+  }
+  .section1 {
+    width: 100%;
+    height: 650px; 
+    background-image: url("assets/house.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-position-y: 0px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2em;
+    border-top: solid 1px burlywood;
+  }
+  .caption {
+    opacity: 90%;
+    text-align: center;
+    padding:0px; 
+    background-color: white; 
+    width: 550px;
+    height: 310px; 
+    position: relative; 
+    font-size: 14px;  
+    padding-top: 10px; 
+  }
+  .enterAddress {
+    margin: auto;
+    position: relative; 
+    top: 20px; 
+    background-color: rgba(255, 255, 255, .9);
+    width: 550px;  
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    
+  }
+  .openButton {
+    border: none;
+    border-radius: 10px;
+    background-color: #1c87c9;
+    color: white;
+    height:70px;
+    width: 450px;
+    font-size: 18px;
+  }
+  .formPopup {
+    display: none;
+    position: relative;
+    left: 45%;
+    top: 5%;
+    transform: translate(-50%, 5%);
+    border: 3px solid #999999;
+    z-index: 9;
+  }
+  .section2 {
+    display:none
+  }
+  .formButton {
+    border: none;
+    border-radius: 10px;
+    background-color: #1c87c9;
+    color: white;
+    cursor: pointer;
+    height:70px;
+    width: 400px; 
+    font-weight: bolder;
+    font-size: 18px; 
+  }
+  .thanks {
+    font-size: 30px; 
+  }
+}
 @media (max-width: 500px)
 {
   *{
@@ -638,5 +635,4 @@ footer {
   .return {
     padding-top: 15px; 
   }
-}
 }
