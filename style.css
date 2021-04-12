@@ -8,7 +8,7 @@ body {
     box-sizing: border-box;
   }
 .phoneNumber a[href^=tel] {
-  color : inherit;
+  color : white;
   text-decoration: none;
 }
 .header {
@@ -265,11 +265,6 @@ footer {
   background-color: black;
   color: white;
   padding: 5px;
-}
-@media (min-height: 1300px) {
-  body {
-    background-color: black; 
-  }
 }
 @media (min-width: 1024px){
   .section1 {
